@@ -1,0 +1,5 @@
+json_labelchange.py 修改labelme json标注文件中的标注名称，支持中文。
+getimage_byjson.py 通过json文件命名寻找其它文件夹中的相同命名的图片并放到json文件夹中。
+json_ifnull 查看文件夹中的json文件是否标注失效导致为空文件，如果为空文件，打印空文件名称和false，打印done时改文件夹没有空json文件。
+resize.py resize图片size，并将原图片的标注文件json文件中的imagedata和图片宽高以及标注点进行同等变换，节省重新标注时间。
+showjson.py 展示标注文件中的图片原图以及带标注图。
