@@ -1,0 +1,2 @@
+voc-coco.py 将voc标注格式xml文件转换coco格式的json文件
+xml_name.py 修改文件夹中某一种类的标注名称。支持中文。
